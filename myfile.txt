@@ -1,2 +1,2 @@
-"Hello!" This is the repository of: Lance Villaluz
+"Hello!" "This is the repository of: Lance Villaluz"
 This is a new line
