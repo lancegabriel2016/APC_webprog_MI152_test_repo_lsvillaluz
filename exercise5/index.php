@@ -9,8 +9,6 @@ if(isset($_GET['delete_id']))
 }
 // delete condition
 ?>
- <a href = "exercise4.php"> <center><h2> Back to main page</h2></a>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -42,7 +40,7 @@ function delete_id(id)
     <label>CRUD Operations With PHP and MySql - <a href="http://cleartuts.blogspot.com" target="_blank">By Cleartuts</a></label>
     </div>
 </div>
-
+<a href = "exercise5.php"> <center><h2> Back to main page</h2></a>
 <div id="body">
  <div id="content">
     <table align="center">

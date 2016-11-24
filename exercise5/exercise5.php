@@ -81,7 +81,7 @@ my bed and the alarm clock is the police</p>
 	<h4>Who is my bestfriend?</h4>
 	<button type="button" onclick="myFunction5()">Try it</button>
 	
-<th colspan="8"><center><a href="add_data.php">Add data here</a></th>	
+<h3><th colspan="8"><center><a href="add_data.php">Add data here</a></th>	</h3>
 	
 <?php
 // define variables and set to empty values
