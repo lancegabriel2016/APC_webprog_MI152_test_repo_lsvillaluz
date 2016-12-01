@@ -47,7 +47,6 @@ function myFunction() {
 
 
 
-
 <h1>Lance Gabriel Villaluz's Profile</h1>
 
 <h4>About Me</h4>
@@ -99,6 +98,7 @@ my bed and the alarm clock is the police</p>
 </td>	
 </table>
 <h3><th colspan="8"><center><a href="add_data.php">Add data here</a></th>	</h3>
+
 	
 <?php
 // define variables and set to empty values
