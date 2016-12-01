@@ -49,6 +49,10 @@ function myFunction() {
 
 <h1>Lance Gabriel Villaluz's Profile</h1>
 
+<center>
+<img src="https://media.giphy.com/media/QQkyLVLAbQRKU/giphy-downsized-large.gif">
+</center>
+
 <h4>About Me</h4>
 <ul>
 <li>17 years old</li>
@@ -56,6 +60,7 @@ function myFunction() {
 <li>Asia Pacific College</li>
 <li>BSIT-MI</li>
 </ul>
+
 
 
 <center>
