@@ -1,23 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script>
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Basketball.";
-	}
-	function myFunction2() {
-    document.getElementById("demo").innerHTML = "SInigang.";
-	}
-	function myFunction3() {
-    document.getElementById("demo").innerHTML = "Facebook";
-	}
-	function myFunction4() {
-    document.getElementById("demo").innerHTML = "Defense of the Ancients 2";
-	}
-	function myFunction5() {
-    document.getElementById("demo").innerHTML = "Joemari.";
-	}
-</script>
 <title>My First HTML</title>
 <style>
 body { background-color : gray;
@@ -35,8 +18,31 @@ h3 { color: yellow ;
 }
 h4 { color: yellow;
 }
+tr,table {border:2px solid black;padding:3px;}
+.sagot {font-family:Arial;font-size:14px;font-weight:bold;}
 </style>
 </head>
+<div class="sagot">
+<script >
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Basketball.";
+	}
+	function myFunction2() {
+    document.getElementById("demo").innerHTML = "SInigang.";
+	}
+	function myFunction3() {
+    document.getElementById("demo").innerHTML = "Facebook";
+	}
+	function myFunction4() {
+    document.getElementById("demo").innerHTML = "Defense of the Ancients 2";
+	}
+	function myFunction5() {
+    document.getElementById("demo").innerHTML = "Joemari.";
+	}
+
+</script>
+</div>
 <body>
 
 
@@ -69,18 +75,29 @@ my bed and the alarm clock is the police</p>
 
 <h1>Answer</h1>
 <p id="demo"></p>
-
+<table style="width:100%;font-size:20px;">
+<tr  rowspan="5">
+<td>
     <h4>What is my Hobby?</h4>
 	<button type="button" onclick="myFunction()">Try it</button>
+</td>
+<td>
     <h4>What is my favorite food?</h4>
 	<button type="button" onclick="myFunction2()">Try it</button>
+</td>
+<td>
     <h4>What is my favorite app?</h4>
 	<button type="button" onclick="myFunction3()">Try it</button>
+</td>
+<td>
 	<h4>What is my favorite PC Game?</h4>
 	<button type="button" onclick="myFunction4()">Try it</button>
+</td>
+<td>
 	<h4>Who is my bestfriend?</h4>
 	<button type="button" onclick="myFunction5()">Try it</button>
-	
+</td>	
+</table>
 <h3><th colspan="8"><center><a href="add_data.php">Add data here</a></th>	</h3>
 	
 <?php
