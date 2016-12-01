@@ -94,7 +94,8 @@ tr,table {border:2px solid black;padding:3px;}
  -webkit-transform: translateX(-100%); /* Firefox bug fix */
  transform: translateX(-100%); 
  }
-}
+
+
 </style>
 </head>
 <div class="sagot">
@@ -118,7 +119,7 @@ function myFunction() {
 
 </script>
 </div>
-<body>
+<body background="wood.jpg">
 
 
 <div class="example1">
