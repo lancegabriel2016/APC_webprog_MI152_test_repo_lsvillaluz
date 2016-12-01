@@ -29,7 +29,7 @@ function myFunction() {
     document.getElementById("demo").innerHTML = "Basketball.";
 	}
 	function myFunction2() {
-    document.getElementById("demo").innerHTML = "SInigang.";
+    document.getElementById("demo").innerHTML = "Sinigang.";
 	}
 	function myFunction3() {
     document.getElementById("demo").innerHTML = "Facebook";
