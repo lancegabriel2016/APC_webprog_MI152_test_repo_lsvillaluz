@@ -58,7 +58,7 @@ function myFunction() {
 </ul>
 
 
-
+<center>
 <p><h3>My Hobbies and Interests</p>
 Playing Basketball
 <p><img src="06d9ed3ba5c4630e720f6a7067004a15.jpg"></p>
@@ -67,7 +67,7 @@ Playing Basketball
 Programming
 <p><img src="Programming-Coding-Geoawesomeness.jpg" width="388" height="328"></p>
 
-<center>
+
 Sleeping
 <p><img src="07c99609e7a32179fbd8544a62e86255.jpg" height="328" width="388"> 
 <br>
