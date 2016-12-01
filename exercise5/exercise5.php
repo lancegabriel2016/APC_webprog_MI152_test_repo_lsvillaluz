@@ -67,10 +67,15 @@ Playing Basketball
 Programming
 <p><img src="Programming-Coding-Geoawesomeness.jpg" width="388" height="328"></p>
 
+<center>
 Sleeping
-<p><img src="07c99609e7a32179fbd8544a62e86255.jpg" height="328" width="388"> Sleeping is my 
+<p><img src="07c99609e7a32179fbd8544a62e86255.jpg" height="328" width="388"> 
+<br>
+Sleeping is my 
 drug,the dealer is 
 my bed and the alarm clock is the police</p>
+</center>
+
 
 <h1>Answer</h1>
 <p id="demo"></p>
