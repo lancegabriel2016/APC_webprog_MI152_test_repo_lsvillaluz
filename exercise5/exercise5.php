@@ -20,6 +20,50 @@ h4 { color: yellow;
 }
 tr,table {border:2px solid black;padding:3px;}
 .sagot {font-family:Arial;font-size:14px;font-weight:bold;}
+
+.example1 {
+ height: 50px;	
+ overflow: hidden;
+ position: relative;
+}
+
+.example1 h1{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: example1 15s linear infinite;
+ -webkit-animation: example1 15s linear infinite;
+ animation: example1 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
 </style>
 </head>
 <div class="sagot">
@@ -46,8 +90,9 @@ function myFunction() {
 <body>
 
 
-
+<div class="example1">
 <h1>Lance Gabriel Villaluz's Profile</h1>
+</div>
 
 <center>
 <img src="https://media.giphy.com/media/QQkyLVLAbQRKU/giphy-downsized-large.gif">
