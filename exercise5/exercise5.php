@@ -53,7 +53,7 @@ function myFunction() {
 <ul>
 <li>17 years old</li>
 <li>2nd year Student</li>
-<li>APCians</li>
+<li>Asia Pacific College</li>
 <li>BSIT-MI</li>
 </ul>
 
