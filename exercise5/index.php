@@ -35,8 +35,11 @@ function delete_id(id)
 <title>My First HTML</title>
 <style>
 body { background-color : gray;
+
  }
- 
+ body {
+	background-image: url ("wood.jpg")
+ }
 h1 { color: white; 
 	  text-align: center;
 	  }
@@ -119,7 +122,7 @@ function myFunction() {
 
 </script>
 </div>
-<body background="wood.jpg">
+
 
 
 <div class="example1">
