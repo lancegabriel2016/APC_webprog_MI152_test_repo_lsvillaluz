@@ -8,14 +8,9 @@ parent::__construct();
 $this->load->model('users_model');
 }
 public function index() {
-	$this->load->view('exercise5');
-}
-public function view(){
 	$data['user_list'] = $this->users_model->get_all_users();
 	$this->load->view('Users_view',$data);
-	
 }
-
 
 public function add_form()
 {
