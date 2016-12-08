@@ -15,7 +15,7 @@ if(isset($_GET['delete_id']))
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>CRUD Operations With PHP and MySql - By Cleartuts</title>
-<link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>uploads/style.css">
 <script type="text/javascript">
 function edt_id(id)
 {
@@ -35,8 +35,11 @@ function delete_id(id)
 <title>My First HTML</title>
 <style>
 body { background-color : gray;
+
  }
- 
+ body {
+	background-image: url ("wood.jpg")
+ }
 h1 { color: white; 
 	  text-align: center;
 	  }
@@ -119,7 +122,7 @@ function myFunction() {
 
 </script>
 </div>
-<body background="wood.jpg">
+<body>
 
 
 <div class="example1">
@@ -184,7 +187,6 @@ my bed and the alarm clock is the police</p>
 	<button type="button" onclick="myFunction5()">Try it</button>
 </td>	
 </table>
-<h3><th colspan="8"><center><a href="add_data.php">Add data here</a></th>	</h3>
 
 <center>
 
